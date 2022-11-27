@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOC N2 - Relato Padrão</title>
+
+    <link rel="icon" href="./assets/fav-icon.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="">
+        </div>
+    </header>
+
+    <main>
+        
+        <form id="formulario" name="formulario">
+
+            <div id="fatorR">
+                <div class="fr" id="fator">Fator R:</div>
+                <input class="in-fr" type="text" id="infr" onkeyup="resRelato()">
+            </div>
+
+            <label for="" id="l-problem">Problema/ Motivo:</label>
+            <textarea class="proDispPponto" spellcheck="true" id="problem" onkeyup="resRelato()"></textarea>
+
+            <label for="" id="l-negociations">Tratativas:</label>
+            <textarea class="tratativas" spellcheck="true" id="negociations" onkeyup="resRelato()"></textarea>
+
+            <label for="" id="l-conclusion">Conclusão:</label>
+            <textarea class="conclutec" spellcheck="true" id="conclusion" onkeyup="resRelato()"></textarea>
+
+            <label for="" id="l-dispon">Disponibilidade:</label>
+            <textarea class="proDispPponto" spellcheck="true" id="dispon" onkeyup="resRelato()"></textarea>
+
+            <label for="" id="l-ref">Ponto de referência:</label>
+            <textarea class="proDispPponto" spellcheck="true" id="ref" onkeyup="resRelato()"></textarea>
+
+            <label for="" id="l-infotec">Informações técnicas:</label>
+            <textarea class="conclutec" spellcheck="true" id="infotec" onkeyup="resRelato()"></textarea>
+
+        </form>
+        
+        <div id="box-copy">
+            <textarea id="relato" disabled ></textarea>
+            <button onclick="copyText()" >Copiar relato</button>
+        </div>     
+    </main>
+
+    <footer></footer>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
