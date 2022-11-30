@@ -22,7 +22,6 @@
 O projeto <strong>Relato Padrão NOC N2</strong>, surgiu através da necessidade de deixar os relatos dos atendentes de forma homogênea, afim de deixar menos brechas para erros por falta de informações e também deixar a leitura em busca de alguma informação sobre o atendimento, de forma mais rápida e segura. 
 
 ---
-<br>
 
 ## 🚀 Tecnologias
 
@@ -35,16 +34,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ---
-<br>
 
-## Layout
+## 🔖 Layout
 
 Você pode visualizar o layout do projeto <a href="https://www.figma.com/file/neXoOKk1pAZK5azATq1fCS/Relato-Padr%C3%A3o-NOC-N2?node-id=0%3A1&t=UV8QG6nQhlIJNeFI-1">Clicando aqui</a>. É necessário ter conta no <a href="https://www.figma.com/">Figma</a> para acessar as propriedades.
 
 ---
-<br>
-
-
 
 ## :memo: Licença
 
