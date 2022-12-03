@@ -34,5 +34,5 @@ function copyText() {
     document.getElementById('formulario').reset()
 
     //recarrega o navegador depois de 8 segundos
-    setInterval(function () {window.location.reload()}, 8000)
+    setInterval(function () {window.location.reload()}, 8500)
 }
