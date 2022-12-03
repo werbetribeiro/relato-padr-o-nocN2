@@ -14,6 +14,9 @@ function resRelato(e) {
     e.preventDefault(); 
 }
 
+
+document.getElementById('formulario').preventDefault()
+
 /*
 document.addEventListener("keydown", function(e) {
     if(e.key === 'Enter') {          
