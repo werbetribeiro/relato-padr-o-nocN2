@@ -13,6 +13,12 @@ function resRelato() {
     document.getElementById("relato").innerHTML = fatorR + problem + negociations + conclusion + dispon + ref + infotec
 }
 
+document.addEventListener("keydown", function(e) {
+    if(e.key === 'Enter') {          
+      e.preventDefault();        
+    }
+  });
+
 function copyText() {
     //cria uma variável para armazenar o conteúdo da transferência dos relatos
     let relato = document.getElementById("relato").value
