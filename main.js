@@ -1,4 +1,4 @@
-function resRelato() {
+function resRelato(e) {
     //variáveis de armazenamento dos valores dos inputs/textareas e concatenação com quebra de linhas
     let fatorR = document.getElementById('fator').innerText + ' ' + `${document.formulario.infr.value} \n\n`
     fatorR.nu
@@ -11,6 +11,7 @@ function resRelato() {
 
     //transfere titulos e conteúdo digitado nos input/textarea para a caixa de relato que por padrão está em branco.
     document.getElementById("relato").innerHTML = fatorR + problem + negociations + conclusion + dispon + ref + infotec
+    e.preventDefault(); 
 }
 
 /*
