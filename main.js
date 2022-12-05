@@ -1,4 +1,4 @@
-function resRelato(e) {
+function resRelato() {
     //variáveis de armazenamento dos valores dos inputs/textareas e concatenação com quebra de linhas
     let fatorR = document.getElementById('fator').innerText + ' ' + `${document.formulario.infr.value} \n\n`
     fatorR.nu
@@ -11,19 +11,12 @@ function resRelato(e) {
 
     //transfere titulos e conteúdo digitado nos input/textarea para a caixa de relato que por padrão está em branco.
     document.getElementById("relato").innerHTML = fatorR + problem + negociations + conclusion + dispon + ref + infotec
-    e.preventDefault(); 
 }
 
-
-document.getElementById('formulario').preventDefault()
-
-/*
-document.addEventListener("keydown", function(e) {
-    if(e.key === 'Enter') {          
-      e.preventDefault();        
-    }
-  });
-*/
+//previnir que o formulário (input) recarregue ao apertar enter | remover o comportamento padrão do formulário
+document.addEventListener('submit', function(e) {
+    e.preventDefault()
+})
 
 function copyText() {
     //cria uma variável para armazenar o conteúdo da transferência dos relatos
